@@ -1,3 +1,5 @@
+CREATE DATABASE taskflow_rw;
+
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
